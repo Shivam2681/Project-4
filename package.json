@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@heroicons/react": "^1.0.6",
     "autoprefixer": "^10.4.20",
     "lucide": "^0.461.0",
     "lucide-react": "^0.461.0",
