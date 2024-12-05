@@ -2,20 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.footer-with-borders {
+    position: relative;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+  
+  /* Hidden on smaller screens, visible on medium and above */
+  .footer-with-borders::before,
+  .footer-with-borders::after {
+    content: "";
+    position: absolute;
+    width: 20px; /* Adjust for desired border width */
+    height: 75%; /* Control height to keep it in balance */
+    background-color: gray;
+    border-radius: 20px; /* Slight curve */
+    display: none; /* Hide by default */
+  }
+  
+  /* Show on medium screens and above */
+  @media (min-width: 768px) {
+    .footer-with-borders::before,
+    .footer-with-borders::after {
+      display: block; /* Display on medium and larger screens */
+    }
+  }
+  
+  .footer-with-borders::before {
+    top: 10%; /* Adjust to control how much of the top is cut off */
+    left: -5px; /* Position slightly to the left */
+  }
+  
+  .footer-with-borders::after {
+    top: 10%; /* Adjust to control how much of the top is cut off */
+    right: -5px; /* Position slightly to the right */
+  }
