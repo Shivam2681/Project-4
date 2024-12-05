@@ -14,7 +14,7 @@ const OnlineVardan = () => {
           '@media (max-width: 768px)': 'left center',
           '@media (min-width: 769px)': 'center',
         },
-        '@media (max-width: 768px)': {
+        '@media (maxWidth: 768px)': {
           backgroundPosition: 'left center'
         }
       }}
