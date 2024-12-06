@@ -19,7 +19,7 @@ const Mahayagya = () => {
         />
       </Head>
 
-      <div className="text-center py-4 md:py-10">
+      <div className="container mx-auto text-center py-4 md:py-10">
         <div className="flex flex-col md:flex-row justify-between items-center mb-4 px-4">
           <img
             src="/Gift.png"
@@ -52,7 +52,7 @@ const Mahayagya = () => {
         
         <div className="flex flex-col md:flex-row justify-center md:space-x-4 lg:space-x-20 space-y-8 md:space-y-0 px-4 md:px-8">
           <div className="text-center">
-            <div className="relative w-[200px] h-[200px] mx-auto mb-2">
+            <div className="relative w-[150px] h-[150px] mx-auto mb-2">
               <Image
                 src="/Laminated.png"
                 alt="Laminated"
@@ -69,7 +69,7 @@ const Mahayagya = () => {
           </div>
 
           <div className="text-center">
-            <div className="relative w-[200px] h-[200px] mx-auto mb-2">
+            <div className="relative w-[150px] h-[150px] mx-auto mb-2">
               <Image
                 src="/Sumeri.png"
                 alt="Sumeru Shri Yantra (Sphatik)"
@@ -88,7 +88,7 @@ const Mahayagya = () => {
           </div>
 
           <div className="text-center">
-            <div className="relative w-[200px] h-[200px] mx-auto mb-2">
+            <div className="relative w-[150px] h-[150px] mx-auto mb-2">
               <Image
                 src="/Gold.png"
                 alt="Gold Plated Silver Shri Yantra"
@@ -107,7 +107,7 @@ const Mahayagya = () => {
           </div>
 
           <div className="text-center">
-            <div className="relative w-[200px] h-[200px] mx-auto mb-2">
+            <div className="relative w-[150px] h-[150px] mx-auto mb-2">
               <Image
                 src="/Vardan.png"
                 alt="Vardaan Siddhi Yantra"

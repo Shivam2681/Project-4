@@ -13,10 +13,10 @@ const Navbar = () => {
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="container mx-auto absolute inset-0"></div>
 
       {/* Content */}
-      <div className="relative z-10">
+      <div className="container mx-auto relative z-10">
         {/* Navbar */}
         <div className="flex justify-between px-4 lg:px-28 py-4 lg:py-10">
           {/* Logo */}

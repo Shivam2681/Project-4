@@ -36,7 +36,7 @@ const Contact = () => {
       }}
     >
       {/* Main content section */}
-      <div className="flex flex-col lg:flex-row justify-between w-full lg:px-16 pt-6 lg:pt-10 gap-8">
+      <div className="container mx-auto flex flex-col lg:flex-row justify-between w-full lg:px-16 pt-6 lg:pt-10 gap-8">
         {/* Left side content */}
         <div className="text-center lg:text-left lg:pl-5">
           <h1 className="text-4xl lg:text-5xl font-extrabold text-orange-600" style={{fontFamily:"Didot"}}>JOIN</h1>
@@ -100,8 +100,8 @@ const Contact = () => {
 
       {/* Registration form */}
       <form onSubmit={handleSubmit} className="mt-8 lg:mt-14 w-full max-w-4xl px-4">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-          <h3 className="text-xl font-bold text-black">Register Now</h3>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-1">
+          <h3 className="text-xl sm:text-sm font-bold text-black">Register Now</h3>
           <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
             <input
               type="text"
@@ -129,7 +129,7 @@ const Contact = () => {
             />
             <button
               type="submit"
-              className="bg-red-900 text-white font-semibold py-2 px-6 rounded-full w-full md:w-auto"
+              className="bg-red-900 text-white font-semibold py-2 px-6 rounded-full w-full sm:text-sm md:w-auto"
             >
               SUBMIT
             </button>

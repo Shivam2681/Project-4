@@ -54,6 +54,7 @@ const Science = () => {
       `}</style>
 
       <div className="p-4 md:p-8 bg-yellow-200 md:px-20">
+        <div className="container mx-auto">
         <div className="text-center mb-8">
           <p className="text-lg md:text-2xl font-semibold px-4">
             <i className="fas fa-quote-left"></i>
@@ -138,6 +139,7 @@ const Science = () => {
               ))}
             </div>
           </div>
+        </div>
         </div>
       </div>
     </>

@@ -29,7 +29,7 @@ const Sharad = () => {
         </div>
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-50">
+        <div className="container mx-auto absolute inset-0 bg-opacity-50">
           {/* Content Container */}
           <div className="relative h-full flex flex-col justify-center px-4 sm:px-8 md:px-16 lg:px-32">
             <div className="max-w-4xl">

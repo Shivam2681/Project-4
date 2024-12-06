@@ -138,7 +138,7 @@ const Feedback = () => {
   ];
 
   return (
-    <div className="space-y-4 p-4 m-12 md:p-8">
+    <div className="container mx-auto space-y-4 p-4 m-12 md:p-8">
       {sections.map((section) => (
         <div
           key={section.key}
